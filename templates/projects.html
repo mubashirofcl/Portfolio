@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+
+{% load static %}
+
+{% block title %} Projects {% endblock %}
+
+{% block content %}
+
+
+<section>
+    <div class="projects">
+
+        <div data-aos="fade" class="project_text ">
+            <h4 data-aos="fade-up">FEATURED WORKS</h4>
+            <p class="about_quote">
+                My creative spirit comes alive in the digital realm. With nimble fingers flying across the
+                keyboard,
+                I
+                craft clear experiences out of nothing but ones and zeroes.
+            </p>
+        </div>
+        <br><br>
+        <center>
+            <a href="#"><button class="all_btn">ALL PROJECTS</button></a>
+        </center>
+
+        <div class="grid">
+            {% for p in projectPage %}
+            <div data-aos="fade-up" class="grid-item">
+                <figure>
+
+                    <a href="{% url 'projects' p.id %}"><img src="{{p.project_image.url}}" alt="img"></a>
+
+                </figure>
+                <section class="user">
+                    <div class="userImage">
+                        <img src="https://i.postimg.cc/LXd2wmwK/profile-img.png" alt="img">
+                    </div>
+                    <div class="userInfo">
+                        <span>{{p.project_names}}</span>
+                        <span>{{p.project_diss}}</span>
+
+                    </div>
+                </section>
+            </div>
+
+
+
+            {% endfor %}
+        </div>
+    </div>
+
+
+
+
+
+</section>
+
+
+
+
+{% endblock %}

@@ -1,0 +1,132 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %} Projects {% endblock %}
+
+{% block content %}
+
+
+
+<center>
+    <div data-aos="fade" class="project_name">
+        <p>{{project.project_names}}</p>
+    </div>
+
+    <section class="main_section">
+        <div data-aos="zoom-in" class="project_img">
+            <img src="{{project.project_preview_img.url}}" alt="img">
+        </div>
+    </section>
+    </div>
+
+
+    <br><br>
+
+    <div class="language_logos">
+
+        <img src="{{project.project_languages_urls1}}" />
+        <img src="{{project.project_languages_urls2}}" />
+        <img src="{{project.project_languages_urls3}}" />
+        <img src="{{project.project_languages_urls4}}" />
+        <img src="{{project.project_languages_urls5}}" />
+
+
+    </div>
+
+    <p data-aos="fade-up" id="details">
+        {{project.project_main_diss}}
+    </p>
+
+    <br><br>
+    <a href="{{project.live_preview }}"><button class="more_but">LIVE PRIVIEW</button></a>
+
+    <br><br><br>
+
+
+    <div class="circle">
+        <div class="logo2"></div>
+        <div class="text">
+            <p>
+                ▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️
+            </p>
+        </div>
+    </div>
+
+
+</center>
+
+
+<div data-aos="fade" class="video_player">
+    <video id="video" preload="metadata" autoplay muted loop play>
+        <source src="{% static '\videos\teaser2.mp4' %}" type="video/mp4">
+    </video>
+</div>
+
+
+<div class="logos">
+    <div class="logos-slide">
+
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg" />
+
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg" />
+
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" />
+
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-plain.svg" />
+
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-plain.svg" />
+
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" />
+
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />
+
+
+    </div>
+</div>
+
+<div id="prodect-details">
+
+    <h5 data-aos="fade-up" class="main_details">
+        RESEARCH
+    </h5>
+
+    <p data-aos="fade-up" id="details">
+        INFORMING DECISION-MAKING: RESEARCH PROVIDES DATA AND EVIDENCE TO SUPPORT DESIGN DECISIONS. IT HELPS
+        DESIGNERS MAKE INFORMED CHOICES ABOUT LAYOUT, COLOR SCHEMES, TYPOGRAPHY, AND OTHER DESIGN ELEMENTS,
+        LEADING TO MORE EFFECTIVE AND USER-FRIENDLY WEBSITES</p>
+
+    <hr>
+
+    <h5 data-aos="fade-up" class="main_details">
+        DESIGN
+    </h5>
+
+    <p data-aos="fade-up" id="details">
+        USABILITY AND ACCESSIBILITY: GOOD DESIGN CONSIDERS THE NEEDS AND PREFERENCES OF USERS, ENSURING THAT
+        THE WEBSITE IS EASY TO NAVIGATE AND UNDERSTAND. INTUITIVE NAVIGATION, CLEAR HIERARCHY, AND LOGICAL
+        ORGANIZATION OF CONTENT ENHANCE USABILITY AND ACCESSIBILITY, ALLOWING USERS TO FIND WHAT THEY ARE
+        LOOKING FOR QUICKLY AND EASILY.</p>
+
+    <hr>
+
+    <h5 data-aos="fade-up" class="main_details">
+        DEVELOPMENT
+    </h5>
+
+    <p data-aos="fade-up" id="details">
+        DEVELOPMENT OPTIMIZES THE WEBSITE'S PERFORMANCE BY OPTIMIZING CODE, REDUCING FILE SIZES, AND
+        IMPROVING LOADING TIMES. A FAST-LOADING WEBSITE ENHANCES USER EXPERIENCE, REDUCES BOUNCE RATES, AND
+        IMPROVES SEARCH ENGINE RANKINGS.</p>
+
+</div>
+
+</center>
+</section>
+
+
+
+
+{% endblock %}

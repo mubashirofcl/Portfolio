@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %} Contact {% endblock %}
+
+{% block content %}
+
+
+<div data-aos="fade-up" class="project_text">
+    <h4>GET IN TOUCH</h4>
+    <p class="about_quote">
+        My creative spirit comes alive in the digital realm. With nimble fingers flying across the keyboard.
+        <br>
+        Let's collaborate and bring your vision to fruition.
+    </p>
+</div>
+<div data-aos="fade" class="contact_container">
+
+
+
+    <div class="contact_form">
+        <form action="" method="POST">
+            {% csrf_token %}
+            {{form.as_p}}
+
+            <center>
+
+                <a href="#"><button type="submit" class="more_but">SUBMIT</button></a>
+
+            </center>
+        </form>
+    </div>
+
+    </section>
+
+    {% endblock %}

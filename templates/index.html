@@ -1,0 +1,207 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %} Portfolio {% endblock %}
+
+{% block content %}
+
+<section class="main_section">
+    <div data-aos="zoom-in" class="main_img">
+
+        <img src="https://i.postimg.cc/Qx1qCm0x/1707571485278.jpg" alt="img">
+
+    </div>
+
+    <div data-aos="fade" class="main_name">
+        <p>MUBASHIR.</p>
+    </div>
+
+    <div data-aos="fade" class="main_def">
+        <p>THE DESIGNER'S ROLE IS LIKE A CONSIDERATE HOST WHO ANTICIPATES THEIR GUESTS' NEEDS.</p>
+
+    </div>
+    </div>
+</section>
+
+
+
+<center>
+
+    <div data-aos="zoom-in" class="circle">
+        <div class="logo2"></div>
+        <div class="text">
+            <p>
+                ▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️
+            </p>
+        </div>
+    </div>
+
+</center>
+<div class="music-player__wrapper">
+
+    <div class="music-player" id="music-container">
+        <audio id="audio-player" autoplay loop>
+            {% for m in Music %}
+            <source src="{{m.music_url}}" type="audio/mpeg">
+            {% endfor %}
+            <p class="sr-only">Your browser does not support the audio element.</p>
+        </audio>
+
+        <div class="music-player__bar music-player__bar1"></div>
+        <div class="music-player__bar music-player__bar2"></div>
+        <div class="music-player__bar music-player__bar3"></div>
+        <div class="music-player__bar music-player__bar4"></div>
+        <div class="music-player__bar music-player__bar5"></div>
+
+        <button onclick="playMusic()" class="music-player__button music-player__play">
+            <span class="sr-only">Play</span>
+        </button>
+        <button onclick="pauseMusic()" class="music-player__button music-player__pause">
+            <span class="sr-only">Pause</span>
+        </button>
+    </div>
+
+</div>
+
+
+
+<div data-aos="fade" class="video_player">
+    <video id="video" preload="metadata" autoplay loop muted play>
+        <source src="{% static '\videos\teaser.mp4' %}" type="video/mp4">
+    </video>
+</div>
+
+
+<div class="logos">
+    <div class="logos-slide">
+
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg" />
+
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg" />
+
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" />
+
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-plain.svg" />
+
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-plain.svg" />
+
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" />
+
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />
+
+
+    </div>
+</div>
+
+<section>
+    <div class="projects ">
+
+        <div data-aos="fade" class="project_text ">
+            <h4 data-aos="fade-up">FEATURED WORK</h4>
+            <p class="about_quote">
+                My creative spirit comes alive in the digital realm. With nimble fingers flying across the
+                keyboard,
+                I
+                craft clear experiences out of nothing but ones and zeroes.
+            </p>
+        </div>
+
+        <center>
+            <a href="#"><button class="all_btn">ALL</button></a>
+        </center>
+
+        <br><br><br>
+
+        <div data-aos="fade-up" class="grid">
+            {% for w in Index_work_page %}
+            <div class="grid-item">
+                <figure>
+
+                    <a href="{% url 'project' %}"><img src="{{w.work_img.url}}" alt="img"></a>
+
+                </figure>
+                <section class="user">
+                    <div class="userImage">
+                        <img src="https://i.postimg.cc/LXd2wmwK/profile-img.png" alt="img">
+                    </div>
+                    <div class="userInfo">
+                        <span>{{w.work_name}}</span>
+                        <span>{{w.work_dis}}</span>
+                    </div>
+                </section>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <center>
+        <br><br>
+        <a href="{% url 'project' %}"><button class="more_but">VIEW MORE</button></a>
+    </center>
+    </div>
+</section>
+
+
+<div data-aos="fade" class="about_me">
+    <h4 data-aos="fade-up">
+        ABOUT <br> MUBASHIR@
+    </h4>
+
+    <p class="about_dis">
+        I AM MUBASHIR PALAPADIYAN, A DEDICATED FULL STACK DEVELOPER CURRENTLY ADVANCING MY EDUCATION IN BACHELOR
+        OF
+        COMPUTER
+        APPLICATIONS (BCA) AT CALICUT UNIVERSITY.
+    </p>
+
+    <p class="about_quote">
+        I'm on the cutting edge of no-code tools that allow me to bring my creative visions to life. Though my
+        methods may be unconventional, my dedication to the craft is unparalleled. I thrive on finding
+        "unexpected
+        solutions" and believe that with the right perspective, design can elevate the human experience.
+    </p>
+    <br><br>
+    <center>
+        <a data-aos="fade-up" href="{% url 'about' %}"><button class="more_but">MORE ABOUT</button></a>
+    </center>
+</div>
+
+
+<br>
+
+
+
+<div data-aos="fade" class="video_player">
+    <video id="video" preload="metadata" autoplay loop muted play>
+        <source src="{% static '\videos\teaser3.mp4' %}" type="video/mp4">
+    </video>
+</div>
+
+
+<div class="about_me">
+
+    <h4 data-aos="fade-up">LET'S WORK<br>
+        TOGETHER
+    </h4><br>
+
+    <center>
+        <a data-aos="fade-up" href="{% url 'contact' %}"><button class="more_but">CONTACT NOW</button></a>
+    </center>
+
+
+    <div data-aos="zoom-in" class="contact_img">
+        <img src="https://i.postimg.cc/FFMj1dq5/contact-img.jpg" alt="img">
+    </div>
+
+    <p data-aos="fade" class="about_dis">
+        WITH A KEEN EYE FOR DETAIL AND A PASSION FOR PROBLEM-SOLVING, I CONTINUOUSLY STRIVE TO DELIVER
+        HIGH-QUALITY
+        SOLUTIONS THAT MEET CLIENT OBJECTIVES AND EXCEED EXPECTATIONS. <br> LET'S COLLABORATE AND BRING YOUR
+        VISION
+        TO FRUITION.
+    </p>
+
+    {% endblock %}

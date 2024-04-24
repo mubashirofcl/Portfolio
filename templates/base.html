@@ -1,0 +1,82 @@
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} {% endblock %}</title>
+    <link rel="stylesheet" href="{% static '\css\style.css' %}">
+    <link type="image/png" rel="icon" href="https://i.postimg.cc/LXd2wmwK/profile-img.png">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.0.1/dist/aos.css" />
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.1/dist/aos.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js'></script>
+
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+
+
+
+</head>
+
+<body>
+
+    <div id="preloader"></div>
+
+    <section class="section page ">
+        <div class="bg"></div>
+
+        <div class="indro_section">
+            <header data-aos="fade-down" class="header">
+                <a href="{% url 'index' %}" class="logo"><img src="https://i.postimg.cc/MGHnqZ9n/logo.png"
+                        alt="logo"></a>
+                <nav class="navbar">
+                    <a class="com_btn" href="{% url 'about' %}">About</a>
+                    <a class="com_btn" href="{% url 'project' %}">Projects</a>
+                    <a class="com_btn" href="{% url 'contact' %}">Contact</a>
+                </nav>
+            </header>
+        </div>
+    </section>
+
+    {% block content %}
+
+
+
+    {% endblock %}
+    <br><br><br>
+
+    <div class="social_but">
+        <center>
+            <a href="tel:+919072190088">MOBILE🡭</a>
+            <a href="https://www.instagram.com/mubasheeiir/?igsh=Z29zdXo1bGg1OG15">INSTAGRAM🡭</a>
+            <a href="https://api.whatsapp.com/send/?phone=%2B919072190088&text&type=phone_number&app_absent=0">WHATSAPP🡭</a>
+            <a href="https://www.facebook.com/mubashir.cc.1238?mibextid=qi2Omg&rdid=fLNkc2ECT2WKsjgc">FACEBOOK🡭</a>
+            <a href="https://www.linkedin.com/in/mubashir-pp-4a53782b3?utm_source=share&utm_campaign">LINKEDIN🡭</a>
+            <a href="https://github.com/mubashirofcl">GITHUB🡭</a>
+            <a href="https://x.com/mubasheeiir?t=TX3xUE57wkkW_zcBGyEv8A&s=09">X🡭</a>
+
+
+
+            <br>
+
+            <a href="{% url 'index' %}" class="footer_logo"><img src="https://i.postimg.cc/MGHnqZ9n/logo.png"
+                    alt="logo"></a>
+        </center>
+        <footer>
+            <p>
+                <a class="footer" href="mailto:mubashirofcl@gmail.com">MUBASHIROFCL@GMAIL.COM</a>
+            </p>
+            <p>
+                <a class="footer2" href="{% url 'index' %}">MUBASHIROFCL</a>
+            </p>
+        </footer>
+    </div>
+
+    <script src="{% static '\js\script.js' %}"></script>
+    </div>
+
+
+</body>
+
+</html>
