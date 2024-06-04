@@ -1,4 +1,4 @@
-# Personal Portfolio ⚡️ 
+# Personal Portfolio  
 > A portfolio website is a unique platform that allows you to showcase your work and tell others about yourself
 
 ### Website Preview
