@@ -4,7 +4,8 @@
 ### Website Preview
 <p align="center"> 
   <kbd>
-    <a href="https://mubashirofcl.github.io" target="_blank"><img src="/preview.gif">
+    <a href="https://mubashirofcl.github.io" target="_blank"><img src="/Screenshot 2024-06-04 224218.png
+">
   </a>
   </kbd>
 </p>
