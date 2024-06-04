@@ -1,10 +1,3 @@
-This project was created with Python Django .
-
-This is my portfolio website to introduce myself, here I put my skills, projects, and contact details.
-
-Technologies used:
-Html
-css
-javascript
-python
-django
+<div align="center">
+  <video src="https://user-images.githubusercontent.com/86276393/212575676-5bdf0e59-e2d9-41e8-9019-a62f8aba4b91.mp4" />
+</div>
