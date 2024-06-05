@@ -1,10 +1,10 @@
-<h1 align="center"><a href="https://lucas-angelo.github.io/portfolio" target="_blank">Personal Portfolio</a></h1>
+<h2 align="center"><a href="https://mubashirofcl.github.io" target="_blank">Personal Portfolio</a></h2>
 
 <h3 align="center">
     <p align="center">
       <a href="#-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
       <a href="#-technologies-and-tools">Technologies and Tools</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-      <a href="#-">License</a>
+      <a href="https://www.instagram.com/mubasheeiir/">Instagram</a>
   </p>
 </h3>
 
