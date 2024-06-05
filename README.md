@@ -2,8 +2,8 @@
 
 <h3 align="center">
     <p align="center">
-      <a href="https://mubashirofcl.github.io">Github</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-      <a href="[#-technologies-and-tools](https://www.linkedin.com/in/mubashir-pp-4a53782b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)">LinkedIn</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+      <a href="https://mubashirofcl.github.io">Github</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;   
+      <a href=" https://www.facebook.com/share/sdoxFsuVTm9WPqQJ/?mibextid=qi2Omg">Facebook</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
       <a href="https://www.instagram.com/mubasheeiir/">Instagram</a>
   </p>
 </h3>
