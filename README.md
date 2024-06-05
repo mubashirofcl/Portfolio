@@ -16,7 +16,7 @@
 
 ##  About 
 
-Personal responsive website with my technology portfolio and to showcase my work and tell others about yourself. Made purely with HTML, CSS and Javascript using Bootstrap, Backend programed with python-django.
+Personal responsive website with my portfolio to showcase my work and tell others about myself. Made purely with HTML, CSS and Javascript using Bootstrap, Backend programmed with python-django.
 
 ##  Technologies and Tools
 
