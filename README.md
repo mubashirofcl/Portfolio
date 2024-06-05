@@ -2,8 +2,8 @@
 
 <h4 align="center">
     <p align="center">
-      <a href="https://mubashirofcl.github.io">Github</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
-        <a href="https://www.instagram.com/mubasheeiir/">Instagram</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        <a href="https://www.instagram.com/mubasheeiir/">Instagram</a>&nbsp;&nbsp;&nbsp;
+        <a href="https://mubashirofcl.github.io">Github</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
       <a href="https://www.facebook.com/share/sdoxFsuVTm9WPqQJ/?mibextid=qi2Omg">Facebook</a> 
       
   </p>
