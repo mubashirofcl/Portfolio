@@ -6,16 +6,14 @@
       <a href="https://www.facebook.com/share/sdoxFsuVTm9WPqQJ/?mibextid=qi2Omg">Facebook</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
       <a href="https://www.instagram.com/mubasheeiir/">Instagram</a>
   </p>
-
-
-##  Preview
 </h4>
+
 <p align="center">
     <a href="https://mubashirofcl.github.io" target="_blank"><img src="static/videos/VID-20240604-WA0149_2.gif">
   </a>
 </p>
 
-##  About
+##  About 
 
 Personal responsive website with my technology portfolio and to showcase my work and tell others about yourself. Made purely with HTML, CSS and Javascript using Bootstrap, Backend programed with python-django.
 
