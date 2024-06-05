@@ -6,10 +6,10 @@
       <a href="https://www.facebook.com/share/sdoxFsuVTm9WPqQJ/?mibextid=qi2Omg">Facebook</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
       <a href="https://www.instagram.com/mubasheeiir/">Instagram</a>
   </p>
-</h4>
+
 
 ##  Preview
-
+</h4>
 <p align="center">
     <a href="https://mubashirofcl.github.io" target="_blank"><img src="static/videos/VID-20240604-WA0149_2.gif">
   </a>
